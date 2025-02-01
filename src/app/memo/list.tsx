@@ -35,7 +35,6 @@ const List = (): JSX.Element => {
             const remmoteMemos: Memo[] = []
 
             snapshot.forEach((doc) => {
-                console.log('memo', doc.data())
                 const { bodyText, updatedAt } = doc.data()
                 remmoteMemos.push({
                     id: doc.id,
