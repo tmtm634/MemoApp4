@@ -4,13 +4,13 @@ import { getFirestore } from 'firebase/firestore'
 import ReactNativeAsyncStorage from '@react-native-async-storage/async-storage'
 
 const firebaseConfig = {
-    apiKey: process.env.EXPO_PUBLIC_FB_API_KEY,
-    authDomain: process.env.EXPO_PUBLIC_FB_AUTH_DOMAIN,
-    projectId: process.env.EXPO_PUBLIC_FB_PROJECT_ID,
-    storageBucket: process.env.EXPO_PUBLIC_FB_STORAGE_BUCKET,
-    messagingSenderId: process.env.EXPO_PUBLIC_FB_MESSAGING_SENDER_ID,
-    appId: process.env.EXPO_PUBLIC_FB_APP_ID
-}
+    apiKey: "AIzaSyCbt6jiNtNJTIfqon0jC2Xx-LHJo3DIPYM",
+    authDomain: "memoapp4-32df3.firebaseapp.com",
+    projectId: "memoapp4-32df3",
+    storageBucket: "memoapp4-32df3.firebasestorage.app",
+    messagingSenderId: "705172236186",
+    appId: "1:705172236186:web:45b786825fd5ae3fa9bc23"
+  };
 
 const app = initializeApp(firebaseConfig)
 const auth = initializeAuth(app, {

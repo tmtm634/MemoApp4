@@ -3,6 +3,8 @@ import {
 
 } from 'react-native'
 import { router } from 'expo-router'
+import { addDoc, collection } from 'firebase/firestore'
+import { db } from '../../config'
 
 import CircleButton from '../../components/CircleButton'
 import Icon from '../../components/Icon'
